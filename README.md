@@ -50,16 +50,21 @@ npm install
 ```
 
 3. **Add environment variables:**
-
-```bash
-MONGO_URI=
-PORT=
-JWT_SECRET=
-JWT_EXPIRES_IN=
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
-```
+   
+   **For frontend**
+   ```bash
+   VITE_API_URL=
+   ```
+   **For backend**
+   ```bash
+   MONGO_URI=
+   PORT=
+   JWT_SECRET=
+   JWT_EXPIRES_IN=
+   CLOUDINARY_CLOUD_NAME=
+   CLOUDINARY_API_KEY=
+   CLOUDINARY_API_SECRET=
+   ```
 
 4. **Start backend:**
 
